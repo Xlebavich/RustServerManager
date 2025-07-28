@@ -17,10 +17,6 @@ Rust Server Manager is a simple desktop application made with Python + PySide6 t
 
 🖥️ Requirements
 
-    Python 3.11+
-
-    steamcmd in the same folder or installed globally
-
     Internet connection for downloading server files
 
 Python dependencies:
