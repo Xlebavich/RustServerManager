@@ -1,4 +1,5 @@
 🛠️ Rust Server Manager
+<img width="799" height="722" alt="изображение" src="https://github.com/user-attachments/assets/054bc9b9-8e2b-4203-8ea4-a1f5f3e931ba" />
 
 Rust Server Manager is a simple desktop application made with Python + PySide6 to easily install, configure, launch, and manage a Rust Dedicated Server.
 ✨ Features
