@@ -32,11 +32,9 @@ PySide6
 🚀 How to Use
 1. Run the App
 
-python main.py
-
 2. First Launch
 
-    The app will automatically create a config.json file.
+    The app will automatically create a server_config.json file.
 
     Set your server name, level, port, and other fields.
 
@@ -57,7 +55,7 @@ Enter any server command in the input field and press Send.
 Click Stop Server to safely stop it.
 ⚙️ Server Settings
 
-The following settings are saved in config.json:
+The following settings are saved in server_config.json:
 
 {
   "hostname": "My Rust Server",
@@ -90,13 +88,11 @@ If the default link gives 404, make sure the link is correct and not outdated (y
 📁 File Structure
 
 RustServerManager/
-├── main.py
-├── config.json         # Saved server settings
-├── RustDedicated/      # Server files after install
-├── steamcmd.exe        # SteamCMD executable
-└── requirements.txt
+├── server_config.json     
+└──  RustDedicated/             
+
 
 📜 License
 
-MIT License – free to use, modify, and share.
+MIT License – free to use.
 Just don’t resell it without permission.
